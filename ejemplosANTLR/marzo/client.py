@@ -1,6 +1,6 @@
 from antlr4 import *
-from antlr.marzoParser import marzoParser
-from antlr.marzoLexer import marzoLexer
+from gen.marzoParser import marzoParser
+from gen.marzoLexer import marzoLexer
 from listeners.gencode import GenCode
 
 import sys
